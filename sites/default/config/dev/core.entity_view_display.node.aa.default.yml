@@ -1,0 +1,26 @@
+uuid: cde2f15c-bb31-4618-888a-774787186616
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.aa.body
+    - node.type.aa
+  module:
+    - text
+    - user
+id: node.aa.default
+targetEntityType: node
+bundle: aa
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

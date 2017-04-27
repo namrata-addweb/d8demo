@@ -1,0 +1,47 @@
+uuid: 84c0503b-c81d-4803-a8bf-8046f85d2d73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.demo1.body
+    - field.field.node.demo1.field_img1
+    - field.field.node.demo1.field_m1
+    - node.type.demo1
+  module:
+    - image
+    - text
+    - user
+id: node.demo1.default
+targetEntityType: node
+bundle: demo1
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_img1:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_m1:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

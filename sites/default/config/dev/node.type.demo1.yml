@@ -1,0 +1,18 @@
+uuid: 210d6645-67d3-4723-9a13-68926610036d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: demo1
+type: demo1
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
