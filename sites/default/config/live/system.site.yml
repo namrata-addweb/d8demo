@@ -1,0 +1,14 @@
+uuid: 9f2fc759-cf95-410e-ae94-a8bec5311cd9
+name: 'myy d8 demo123'
+mail: d8dev@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
